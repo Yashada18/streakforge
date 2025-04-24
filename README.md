@@ -29,8 +29,12 @@ StreakForge is a minimal yet powerful productivity tracker for coders. Log your 
 ### 🖼️ Screenshots
 
 | Landing Page | Dashboard |
-| ------------ | --------- |
-| ![Landing](./screenshots/landing.png) | ![Dashboard](./screenshots/dashboard.png) |
+| ------------ | --------- | 
+| ![Landing](./screenshots/landing.png) | ![Dashboard](./screenshots/dashboard.png) | 
+
+| Logger |
+| ------ |
+| ![Logger](./screenshots/logger.png) |
 
 ---
 

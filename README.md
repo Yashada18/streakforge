@@ -1,34 +1,64 @@
-# 🌟 StreakForge
+# 🔥 StreakForge
 
 **Track your grind. Own your growth. 🚀**
 
-StreakForge is a sleek productivity tracking web app to log problem-solving progress, set goals, and stay consistent.
-
-## 🖥️ Live Preview
-
-[🔗 View Site on GitHub Pages](https://yashada18.github.io/streakforge)
-
-## 📸 Preview
-
-![Preview of StreakForge](preview.png)
-
-## 🔧 Features
-
-- 🔥 Bold landing page with glowing terminal animation
-- 📅 Weekly streak tracker + problem logging
-- 🎯 Goal setter (daily, weekly, monthly)
-- 😎 Confidence scale with emoji feedback
-- 📊 Profile with avatar, streaks, and roadmap progress
-
-## 🛠️ Tech Stack
-
-- HTML5  
-- CSS3 (Animations & Layouts)  
-- JavaScript (Vanilla)  
+StreakForge is a minimal yet powerful productivity tracker for coders. Log your daily challenges, visualize your streaks, and grow like a pro. Built using HTML, CSS, and JavaScript – it’s fast, local-first, and distraction-free.
 
 ---
 
-## 🤝 Connect
+### 🌟 Features
 
-Made with 💙 by [Yashada Jagtap](https://github.com/yashada18)
+- ⚡ Beautiful landing page with terminal-glow & particle animation
+- 📊 Dashboard showing weekly progress, goal tracker, and a streak heatmap
+- 🧠 Problem Logger with:
+  - Platform, topic, difficulty, tags & confidence level
+  - Smart tagging: *To Revise*, *Struggled*, *Mastered*
+- 👀 View Logs page with problem summaries & filter options (coming soon)
+- 💾 Data stored in browser’s localStorage – no login required
+
+---
+
+### 🛠️ Tech Stack
+
+- HTML5, CSS3, JavaScript
+- LocalStorage API for persistent logs
+- Designed in VS Code 💙
+
+---
+
+### 🖼️ Screenshots
+
+| Landing Page | Dashboard |
+| ------------ | --------- |
+| ![Landing](./screenshots/landing.png) | ![Dashboard](./screenshots/dashboard.png) |
+
+---
+
+### 🚀 How to Run
+
+1. Clone this repo: git clone https://github.com/Yashada18/streakforge.git
+2. Open `index.html` in your browser.
+3. Start logging your problems and goals!
+
+---
+
+### 📌 Roadmap
+
+- [x] Landing page with glowing + particles
+- [x] Problem Logger + View Logs
+- [x] Dashboard with dynamic summary
+- [ ] Revise Problems View 🔜
+- [ ] Export logs as CSV 🔜
+
+---
+
+### 🙌 Author
+
+Made with ❤️ by [Yashada Jagtap](https://github.com/Yashada18)
+
+---
+
+### ⭐ Show Some Love
+
+If you liked it, drop a ⭐ on the repo and connect on [LinkedIn](https://www.linkedin.com/in/yashada-jagtap)!
 

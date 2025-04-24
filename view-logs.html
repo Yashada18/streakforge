@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>View Problem Logs</title>
+  <link rel="stylesheet" href="view-logs.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Your Problem Logs</h1>
+
+    <div class="filter-container">
+      <label for="filter">Filter by Tag:</label>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="To Revise">To Revise</option>
+        <option value="Struggled">Struggled</option>
+        <option value="Mastered">Mastered</option>
+      </select>
+    </div>
+
+    <div id="logList" class="log-list">
+      <!-- Logs will be injected here by JS -->
+    </div>
+  </div>
+
+  <script src="view-logs.js"></script>
+</body>
+</html>

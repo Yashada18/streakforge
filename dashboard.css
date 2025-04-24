@@ -1,0 +1,93 @@
+/* === RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+    color: #f0f0f0;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  /* === CONTAINER === */
+  .dashboard-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.2);
+  }
+  
+  /* === HEADLINE === */
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00ffaa;
+  }
+  
+  /* === STREAK HEATMAP PLACEHOLDER === */
+  .streak-heatmap {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    text-align: center;
+    border: 1px dashed #00ffaa80;
+    color: #ccc;
+  }
+  
+  /* === QUICK ACTIONS === */
+  .quick-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .quick-actions button {
+    flex: 1;
+    padding: 0.75rem 1.5rem;
+    background: #00ffaa1a;
+    border: 1px solid #00ffaa;
+    color: #00ffaa;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .quick-actions button:hover {
+    background: #00ffaa40;
+    transform: translateY(-2px);
+  }
+  
+  /* === PROGRESS SUMMARY === */
+  .summary {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #90ee90;
+    font-weight: 600;
+  }
+  
+  .view-logs-button {
+    display: inline-block;
+    background-color: #22c55e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .view-logs-button:hover {
+    background-color: #16a34a;
+  }
+  

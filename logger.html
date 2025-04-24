@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log a problem</title>
+    <link rel="stylesheet" href="logger.css">
+
+</head>
+<body>
+    <div class="logger-container">
+        <h1>Log a problem</h1>
+        <form id="problem-form">
+            <label>Problem Name:</label>
+            <input type="text" id="name" required />
+
+      <label>Platform:</label>
+      <select id="platform">
+        <option value="LeetCode">LeetCode</option>
+        <option value="Codeforces">Codeforces</option>
+        <option value="CodeChef">CodeChef</option>
+        <option value="HackerRank">HackerRank</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label>Topic:</label>
+      <input type="text" id="topic" />
+
+      <label>Difficulty:</label>
+      <select id="difficulty">
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+
+      <label>Notes:</label>
+      <textarea id="notes"></textarea>
+
+      <label>Tags:</label>
+      <div class="tags">
+        <label><input type="checkbox" value="To Revise" /> To Revise</label>
+        <label><input type="checkbox" value="Struggled" /> Struggled</label>
+        <label><input type="checkbox" value="Mastered" /> Mastered</label>
+      </div>
+
+      <label>Confidence:</label>
+      <div class="confidence">
+        😖 <input type="range" min="1" max="3" value="2" id="confidence" /> 😎
+      </div>
+
+      <button type="submit">Save Problem</button>
+      <p id="success-message" style="display:none; color: green; font-weight: bold;">🎉 Problem logged successfully!</p>
+
+    </form>
+  </div>
+
+  <script src="logger.js"></script>
+</body>
+</html>

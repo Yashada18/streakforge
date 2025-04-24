@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #0f1117;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .logger-container {
+    background: #1a1d29;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.1);
+  }
+  
+  .logger-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #00ffab;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #2a2e3d;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .tags,
+  .confidence {
+    margin-top: 10px;
+  }
+  
+  .tags label,
+  .confidence {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="range"] {
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background: #00ffab;
+    color: #0f1117;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background: #00c98a;
+  }
+  

@@ -58,7 +58,5 @@ Made with ❤️ by [Yashada Jagtap](https://github.com/Yashada18)
 
 ---
 
-### ⭐ Show Some Love
 
-If you liked it, drop a ⭐ on the repo and connect on [LinkedIn](www.linkedin.com/in/yashadajagtap)!
 
